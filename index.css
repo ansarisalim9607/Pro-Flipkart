@@ -1,0 +1,276 @@
+*{
+    pading:0;
+    margin:0;
+}
+nav{
+    background-color: #2874f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:10px 0px;
+}
+
+.plus-color{
+    color: yellow;
+    font-weight: 900;
+}
+
+.logo p{
+    color: white;
+    height: 2px;
+    position: relative;
+    top: -5px;
+}
+
+.search{
+    background-color: white;
+    padding: 8px;
+    width: 420px;
+    height: 34px;
+    margin: 0px 15px;
+    display: flex;
+    justify-content: space-between;
+    color: #2874f0;
+    box-shadow: -7px -7px 10px rgba(0,0,0,0.1);
+    7px -7px 10px rgba(0,0,0,0.1);
+    border-radius: 2px;
+}
+
+.search input{
+    width: 380px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+}
+
+.loginBtn{
+    padding: 7px 40px;
+    font-size: 16px;
+    font-weight: 550;
+    border: none;
+    color: #2874f0;
+}
+
+.Navlink{
+    margin: 0px 20px;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+}
+
+
+.angledownIcon i{
+    font-size: 5px;
+}
+
+
+
+
+/*******top navbar product *************/
+
+.topProductNavbar{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    padding: 10px 50px;
+    border-bottom: 1px solid #ccc;
+}
+
+.topProductNavbar_Nav{
+    width: 80px;
+    /* height: 110px; */
+    cursor: pointer;
+    flex: 1;
+}
+.topProductNavbar_Nav img{
+    width: 64px;
+    height: 64px;
+}
+
+.topProductNavbar_Nav p{
+    font-weight: 510;
+}
+
+.topProductNavbar_Nav:hover p{
+    color: #2874f0;
+}
+
+
+
+
+/**************Slider **************/
+
+.slider{
+    width: 100%;
+    display: flex;
+    padding: 20px 0px;
+}
+.sliderImge{
+    width: 100%;
+   /* padding: 0px 10px; */
+   padding-right: 20px;
+   height: 250px;
+   
+}
+
+.Slider_image{
+    display: flex;
+    padding: 10px;
+}
+
+.btn-container{
+    margin:auto;
+    width: 10px;
+}
+.btn{
+    padding: 35px 10px;
+    background-color:white ;
+    font-size: 30px;
+    position: relative;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+.btn-right{
+    position:relative;
+    left: -40px;
+}
+
+/***********best of Electronic*********/
+*{
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 0%;
+    background-color: rgb(238, 234, 234);
+    display: inline;block-size: auto;
+}
+
+.aimg img{
+    width: 100%;
+    height: 100%;
+}
+.bestElectronic-container{
+    height: 380px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.left-part{
+    height: 100%;
+    width: 25%;
+    background-color: white;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.1);
+}
+
+.right-part{
+    height: 100%;
+    width: 19%;
+    background-color: white;
+    padding: 0.5em;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.1);
+}
+
+.right-part img{
+
+}
+
+.viewAll_btn{
+    background-color: #2874f0;
+    color: white;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    border:none;
+    padding: 9px 18px;
+    border-radius: 34px;
+}
+.leftPart-top{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    height: 25%;
+    border-bottom: 1px solid #ccc;
+}
+
+.leftPart-top h1{
+    margin: 0;
+    font-size: 1.6rem;
+}
+..leftPart-top p{
+    margin: 0;
+}
+
+
+/********nestroundpart**********/
+
+.leftpart-card-container{
+    height: 75%;
+    overflow: hidden;
+}
+.card-product{
+    width: 200px;
+    padding: 1em;
+    text-align: center;
+    background-color: white;
+}
+
+.card-product img{
+    width: 110px;
+    cursor: pointer;
+}
+
+.card-product-name{
+    margin: 2px 0;
+    margin: 1px 0;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.card-product-price{
+    margin: 1px 0;
+}
+.card-product-desc{
+    margin: 1px 0;
+}
+
+
+.card-product-desc{
+    margin: 0;
+}
+
+/*footer Section*/
+footer{
+    /* borde:5px groove green; */
+    background-color: #2874f0;
+    color: white;
+    text-align: center;
+}
+
+.footText{
+    font-size: 20px;
+}
+
+.footDiv{
+    display: inline-block;
+    width: 32%;
+    border-right: 2px solid white;
+}
+.noBorder{
+    boder:none
+}
+
+ul{
+    list-style-type: none
+}
+
+
+
+
+
+
+
+
+
+
